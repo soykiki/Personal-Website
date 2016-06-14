@@ -23,7 +23,7 @@
             }
             
             a:visited {
-/*                color: #D63799; */
+/*                color: ##04B497; */
             }
             
             body {
@@ -38,9 +38,9 @@
             } 
             
             #header {
-                background: #04B497;
-/*                background-color: #04D67C;*/
-                color: #FFFFFF;
+                background: #FFFFFF;
+/*                background-color: #FFFFFF;*/
+                color: #CC9900;
                 text-align: center;
                 padding: 10px;
                 margin-bottom: 15px;
@@ -62,23 +62,34 @@
             #links {
                 text-align: center;
             }
-            
+            .goldColor{
+                color: #CC9900
+            }
+           .gold2 {
+                color: #b6a25d;
+            }
+            .accentColor{
+                color: #04B497
+                
+            }
             .navBarLinks {
                 display: inline-block;
-                padding: 2px 13px;
-                font-size: 25px;
+                padding: 2px 9px;
+                font-size: 14px;
                 border-bottom-style: solid;
                 border-bottom-width: 2px;
-                border-color: #04B497;
+                border-color: #FFFFFF;
+                color: #b6a25d;
             }
             
             .navBarBullet {
                 display: inline-block;
-                font-size: 25px;
+                font-size: 16px;
+                color: #04B497
             }
             
             .navBarLinks:hover {
-                border-color: #D63799;
+                border-color: #04B497;
                 
             }
             
@@ -88,10 +99,11 @@
                 display: inline-block;
                 border-width: 2px;
                 border-radius: 5px;
-                border-style: solid;
-                border-color: #04B497;
+/*                border-style: solid;*/
+                border-color: #f4f4f4;
                 padding: 10px;
                 background-color: #fafafa;
+                box-shadow: 0px 0px 20px #ccc;
             }
             
             .pageHeader {
@@ -149,16 +161,22 @@
             
             .articlePreview {
                 display: inline-block;
-                width: 49%;
+                width: 100%;
+                text-align: left;
             }
             
             .articlePreviewImage {
-                max-height: 150px;
+                max-height: 203px;
                 max-width: 100%;
+                float: left;
             }
             
             .articlePreviewTitle {
                 font-weight: bold;
+                float: left;
+                padding: 5px;
+                font-size: 16px;
+                color: #b6a25d
             }
             
             .articlePreviewSummary {
@@ -169,9 +187,9 @@
     <body>
         <div id="header">
             <div id="fancyName">
-                <span class="fontPrincess">K</span><span class="fontSatisfy">enechi</span>
+                <span class="fontPrincess accentColor">K</span><span class="fontSatisfy accentColor">enechi</span>
                 &nbsp;&nbsp;
-                <span class="fontPrincess">F</span><span class="fontSatisfy">rancis</span>
+                <span class="fontPrincess accentColor">F</span><span class="fontSatisfy accentColor">rancis</span>
             </div>
             <div id="links">
                 <div class="navBarLinks"><a href="#about">About</a></div>
@@ -184,7 +202,7 @@
                 <div class="navBarBullet">&bull;</div>
                 <div class="navBarLinks"><a href="korner">Kiki's Korner</a></div>
                 <div class="navBarBullet">&bull;</div>
-                <div class="navBarLinks"><a href="#resume">Resume</a></div>
+                <div class="navBarLinks"><a href="/Kenechi%20Francis%20Resume%20-%20Summer%202016.docx">Resume</a></div>
             </div>
         </div>
         
@@ -194,44 +212,36 @@
                 <div class="pageHeader">
                     <div class="pageHeaderImageWrapper">
                         <img class="pageHeaderImage" src="img/KikiFashion.jpg">
-                        <div class="fontSatisfy" style="font-size: 30px;">Fashions fade, style is eternal.</div>
+                        <div class="fontSatisfy gold2" style="font-size: 30px;">Fashions fade, style is eternal.</div>
                         <div style="font-style: italic; color: #888; font-size: 18px;">- Yves Saint Laurent</div>
                     </div>
                     
                     <div class="pageHeaderCaption">
-                        <div class="headerCaptionTitle fontSatisfy">
+                        <div class="headerCaptionTitle fontSatisfy gold2">
                             Fashion & Beauty
                         </div>
                         <div class="headerCaptionSummary">
                             I've always loved Fashion..
                         </div>
-                        <div class="articlePreviewWrapper">
+                        <div class="articlePreviewWrapper goldColor">
                             
                             <div class="articlePreview" href="">
-                                <img class="articlePreviewImage" src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1914847_10204332798959185_3913104882670039999_n.jpg?oh=53f8fe1c5386314785ab4d9f7e485fad&oe=57D41D62">
+                                <img class="articlePreviewImage" src="img/KikiTravel1.jpg">
                                 <div class="articlePreviewCaption">
                                     <div class="articlePreviewTitle">Latest Summer Fashions</div>
                                 </div>
                             </div>
        
                             <div class="articlePreview" href="">
-                                <img class="articlePreviewImage" src="img/KikiTravel1.jpg">
+                                <img class="articlePreviewImage" src="img/KikiBlacknSilver.jpg">
                                 <div class="articlePreviewCaption">
                                     <div class="articlePreviewTitle">Latest Spring Fashions</div>
                                 </div>
                             </div>
                             
-                            <div class="articlePreview" href="">
-                                <img class="articlePreviewImage" src="img/KikiTravel1.jpg">
-                                <div class="articlePreviewCaption">
-                                    <div class="articlePreviewTitle">Latest Spring Fashions</div>
                                 </div>
                             </div>
                             
-                            <div class="articlePreview" href="">
-                                <img class="articlePreviewImage" src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/1914847_10204332798959185_3913104882670039999_n.jpg?oh=53f8fe1c5386314785ab4d9f7e485fad&oe=57D41D62">
-                                <div class="articlePreviewCaption">
-                                    <div class="articlePreviewTitle">Latest Summer Fashions</div>
                                 </div>
                             </div>
                             
